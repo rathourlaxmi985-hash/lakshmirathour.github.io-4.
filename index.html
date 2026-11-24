@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshmi Rathour | Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0b0b18;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 25px 8%;
+            background: #151528;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            min-height: 85vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 50px 10%;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            color: #a78bfa;
+        }
+
+        .hero h2 {
+            margin: 15px 0;
+        }
+
+        .hero p {
+            color: #c5c5d8;
+            line-height: 1.8;
+            max-width: 600px;
+        }
+
+        section {
+            padding: 65px 10%;
+        }
+
+        section h2 {
+            color: #a78bfa;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: #19192e;
+            padding: 25px;
+            margin: 15px 0;
+            border-radius: 12px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #151528;
+        }
+
+        @media(max-width:600px) {
+            .hero h1 { font-size: 34px; }
+            nav { flex-direction: column; gap: 15px; }
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <h2>Lakshmi.</h2>
+    <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<div class="hero">
+    <h1>Hi, I'm Lakshmi Rathour</h1>
+    <h2>CSE (AI & ML) Student</h2>
+    <p>
+        I am a second-year Computer Science Engineering student
+        passionate about Artificial Intelligence, Machine Learning,
+        Python and technology.
+        I love learning new skills and building practical projects.
+    </p>
+</div>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am pursuing B.Tech in Computer Science and Engineering
+        with Artificial Intelligence and Machine Learning.
+        I enjoy problem solving, learning programming and participating
+        in hackathons.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="card">
+        Python | C | C++ | SQL | HTML | CSS | Machine Learning
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="card">
+        <h3>AI StudyMate</h3>
+        <p>An AI-based study assistant project.</p>
+    </div>
+    <div class="card">
+        <h3>SmartTripAI</h3>
+        <p>An AI-powered smart travel planning project.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: your-email@example.com</p>
+    <p>GitHub: github.com/yourusername</p>
+    <p>LinkedIn: Add your LinkedIn profile link</p>
+</section>
+
+<footer>
+    © 2026 Lakshmi Rathour | All Rights Reserved
+</footer>
+
+</body>
+</html>
